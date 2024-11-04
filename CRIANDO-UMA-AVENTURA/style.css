@@ -1,0 +1,28 @@
+<!-- código omitido --
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #91d63d;
+    color: rgb(3, 231, 155);
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+<div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.png" alt="">
+        <p>Um dia desses, dentro de um livro da biblioteca da escola, descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
+        <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+        <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+</div>
+
+.passo.ativo {
+    display:block;
+}
